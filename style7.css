@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    padding: 5%;
+    box-sizing: border-box;
+    
+    background-color: rgb(63, 49, 16);
+    background-size: auto 100vh;
+    background-position: 50%;
+}
+
+#televizor {
+    width: 780px;
+    height: 514px;
+    background-image: url(tv.png);
+    margin: 50px auto;
+    box-sizing: border-box;
+    padding: 27px 15px 80px;
+}
+
+#televizor iframe {
+    width: 100%;
+    height: 100%;
+    background-color:white
+}
+
+#komoda {
+    width: 80%;
+    min-width: 780px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-auto-rows: 140px;
+
+    position: relative;
+}
+
+#komoda, #komoda div, #linija iframe {
+    background-color: #000000;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+#linija {
+    grid-row-end: span 2;
+}
+#linija iframe {
+    width: 80%;
+    height: 50px;
+}
+#linija, #pas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+#pas img{
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    top: 80px;
+    left: -30px;
+}
+#mačka img {
+    position: absolute;
+    top: -120px;
+    left: 700px;
+    width: 350px;
+    height: 200px;
+}
+

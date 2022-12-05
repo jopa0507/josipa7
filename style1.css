@@ -1,0 +1,76 @@
+body {
+    width: 90%;
+    margin: 0 auto;
+    background-color:#34280c;
+    color: #d7d8aa;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}  
+#forum body {
+    margin: 50px;    
+}
+
+#forum form {
+    width: 1615px;
+    padding: 20px;
+    background-color: #debe47;
+    border: 6px double #ddd;
+    border-radius: 25px;
+    color: #34280c;
+    text-shadow: 2px 2px #e9d9aa;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+
+#forum input,
+fieldset,
+select {
+    font-size: 14px;
+    width: 98%;
+    padding: 15px;
+    margin: 13px;
+    background-color: rgba(195, 184, 38, 0.5);
+    border: 2px solid #c4a81c;
+    box-sizing: border-box;
+}
+
+#forum input:focus {
+    background-color: #d7d8aa;
+    ;
+}
+
+#forum label {
+    font-weight: bold;
+    display: block;
+}
+
+#forum fieldset input {
+    width: 10%;
+}
+
+#forum fieldset label {
+    display: inline-block;
+    width: 80%;
+}
+
+
+#forum input[type="submit"],
+#forum input[type="reset"] {
+    width: 100px;
+    height: 50px;
+    padding: 2px;
+    margin-left: 10px;
+    
+}
+
+#forum input[type="submit"]:hover,
+#forum input[type="reset"]:hover {
+    box-shadow: 2px 2px 2px #d3b10a;
+    background-color: #e4dfaf;
+}
+
+#forum input[type="color"] {
+    height: 60px;
+    padding: 2px;
+}

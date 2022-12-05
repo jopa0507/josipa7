@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    background-image: url(šape1.jpg);
+}
+div {
+    width: 150px;
+    height: 150px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    font-weight: bold;
+    text-align: center;
+    line-height: 140px;
+    position: absolute;
+}
+
+.red1 {
+    top: 50;
+    font-family: Calibry;
+    font-size: 10px;
+}
+.red2 {
+    top: 200px;
+    font-family: Times;
+    font-size: 20px;
+}
+.red3 {
+    top: 350px;
+    font-family: Courier;
+    font-size: 30px;
+}
+.red4 {
+    top: 500px;
+    font-family: Arial;
+    font-size: 40px;
+}
+.red5 {
+    top: 650px;
+    font-family: "Book Antiqua";
+    font-size: 50px;
+}
+
+.stupac1 {
+    left: 0;
+}
+.stupac2 {
+    left: 150px;
+    border-radius: 10%;
+}
+.stupac3 {
+    left: 300px;
+    border-radius: 20%;
+}
+.stupac4 {
+    left: 450px;
+    border-radius: 35%;
+}
+.stupac5 {
+    left: 600px;
+    border-radius: 50%;
+}
+
+
+
+.red1.stupac1 {
+    background-color: rgba(169, 141, 37, 0.841);
+}
+.red1.stupac3 {
+    background-color: rgba(255,255,0,.5);
+}
+.red1.stupac5 {
+    background-color: rgba(255,128,0,.5);
+}
+.red2.stupac2 {
+    background-color: rgba(208, 191, 42, 0.5);
+}
+.red2.stupac4 {
+    background-color: rgba(216, 200, 55, 0.5);
+}
+.red3.stupac1 {
+    background-color: rgba(218, 215, 32, 0.5);
+}
+.red3.stupac3 {
+    background-color: rgba(237, 178, 27, 0.5);
+    color: white;
+}
+.red3.stupac5 {
+    background-color: rgba(220, 133, 26, 0.5);
+}
+.red4.stupac2 {
+    background-color: rgba(128,128,0,.5);
+}
+.red4.stupac4 {
+    background-color: rgba(207, 191, 11, 0.5);
+}
+.red5.stupac1 {
+    background-color: rgba(217, 157, 18, 0.5);
+}
+.red5.stupac3 {
+    background-color: rgba(195, 166, 52, 0.5);
+}
+.red5.stupac5 {
+    background-color: rgba(160, 174, 51, 0.5);
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .container div {
+        border-radius: 50%;
+        border-width: 1px;
+        position: static;
+        float: left;
+    }
+
+    .red3.stupac3 {
+        color: inherit;
+    }
+
+    .red5.stupac5 {
+        display: none;
+    }
+}
+
+
